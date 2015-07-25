@@ -4,18 +4,18 @@
   "manifest_version": 2,
   "description": "Adds an option to share to b@ when you right click on highlighted text",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
   "default_locale": "en",
   "background": {
     "scripts": [
-      "src/bg/background.js"
+      "background.js"
     ],
     "persistent": true
   },
-  "options_page": "src/options_custom/index.html",
+  "options_page": "options.html",
   "permissions": [
     "contextMenus",
     "*://*/*"
